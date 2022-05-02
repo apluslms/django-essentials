@@ -1,9 +1,10 @@
+from collections import OrderedDict, defaultdict
+from collections.abc import Iterable
+from itertools import chain
+from json import loads as json_loads
 from os import environ
 from os.path import basename, dirname, isfile, join as join_path, splitext
 from sys import stderr
-from collections import Iterable, OrderedDict, defaultdict
-from itertools import chain
-from json import loads as json_loads
 
 from .utils.conf import (
     ensure_app_configs,
