@@ -20,7 +20,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='django-essentials',
-    version='1.4.0',
+    version='1.5.0',
     description='Some essential tools when working with any Django project',
     long_description=long_description,
     keywords='django',
@@ -43,18 +43,11 @@ setup(
         'Topic :: Software Development :: Build Tools',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Framework :: Django',
-        'Framework :: Django :: 1.9',
-        'Framework :: Django :: 1.10',
-        'Framework :: Django :: 1.11',
-        'Framework :: Django :: 2.0',
-        'Framework :: Django :: 2.2',
         'Framework :: Django :: 3.2',
 
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3 :: Only',
     ],
 
@@ -62,6 +55,6 @@ setup(
     include_package_data = True,
 
     install_requires=[
-        'Django >=1.9.7, <4',
+        'Django >= 3.2, <4',
     ],
 )
