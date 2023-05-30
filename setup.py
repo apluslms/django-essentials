@@ -20,7 +20,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='django-essentials',
-    version='1.5.1',
+    version='1.6.0',
     description='Some essential tools when working with any Django project',
     long_description=long_description,
     keywords='django',
@@ -44,6 +44,7 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Framework :: Django',
         'Framework :: Django :: 3.2',
+        'Framework :: Django :: 4.2',
 
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.9',
