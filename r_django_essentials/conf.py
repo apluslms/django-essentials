@@ -342,7 +342,7 @@ def update_settings(name,
     update_settings_fixes(settings,
                           apps_option=apps_option,
                           processors_option=processors_option,
-                          cached_backend=cached_backend,
+                          cached_backends=cached_backends,
                           )
 
 def update_settings_fixes(settings,
